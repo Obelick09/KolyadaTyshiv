@@ -40,7 +40,7 @@ main { flex: 1; }
   padding: 40px 20px;
   font-size: 23px;
   white-space: pre-wrap;
-  text-align: center;
+  text-align: left;
   background: white;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.08);
@@ -91,5 +91,6 @@ footer {
     padding: 28px 14px; 
   }
 }
+
 
 
