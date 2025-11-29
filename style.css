@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Alegreya', serif;
+  background-color: #fffef7;
+  color: #2c1a0d;
+  line-height: 1.8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #c41e3a;
+  text-align: center;
+}
+
+header {
+  padding: 80px 20px 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #fffef7, #fdf2e6);
+}
+
+h1 { font-size: 48px; margin-bottom: 10px; }
+.back-link { 
+  font-size: 19px; 
+  color: #c41e3a; 
+  text-decoration: none;
+}
+.back-link:hover { text-decoration: underline; }
+
+main { flex: 1; }
+
+.lyrics {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 40px 20px;
+  font-size: 23px;
+  white-space: pre-wrap;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #8d6e63;
+  font-size: 16px;
+}
+
+/* головна сторінка */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.grid a {
+  display: block;
+  background: #c41e3a;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 40px 20px;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.3s;
+  box-shadow: 0 6px 15px rgba(196,30,58,0.25);
+}
+
+.grid a:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(196,30,58,0.35);
+  background: #a1172e;
+}
+
+@media (max-width: 640px) {
+  h1 { font-size: 40px; }
+  .lyrics { font-size: 21px; padding: 30px 15px; }
+  .grid a { font-size: 20px; padding: 30px 15px; }
+}
