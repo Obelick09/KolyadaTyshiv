@@ -68,10 +68,10 @@ footer {
   background: #c41e3a;
   color: white;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;    
   font-weight: 600;
-  padding: 40px 20px;
-  border-radius: 16px;
+  padding: 32px 16px;       
+  border-radius: 14px;      
   text-align: center;
   transition: all 0.3s;
   box-shadow: 0 6px 15px rgba(196,30,58,0.25);
@@ -86,6 +86,9 @@ footer {
 @media (max-width: 640px) {
   h1 { font-size: 40px; }
   .lyrics { font-size: 21px; padding: 30px 15px; }
-  .grid a { font-size: 20px; padding: 30px 15px; }
-
+  .grid a { 
+    font-size: 17px;        
+    padding: 28px 14px; 
+  }
 }
+
