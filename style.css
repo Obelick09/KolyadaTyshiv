@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700&display=swap');
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-  font-family: 'Alegreya', serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fffef7;
   color: #2c1a0d;
   line-height: 1.8;
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
   color: #c41e3a;
   text-align: center;
 }
@@ -91,4 +91,5 @@ footer {
     padding: 28px 14px; 
   }
 }
+
 
